@@ -1,0 +1,82 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(240deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.innerBox{
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%;
+    transform: translateX(50%);
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0rem;
+}
+
+.contEle{
+    padding: 1rem;
+}
+
+img{
+    border-radius: 50%;
+    
+    
+}
+h3{
+    text-align: center;
+    color: rgb(230, 138, 255);
+}
+
+.icons{
+    height: 90px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+i{
+    padding: 20px;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    
+
+}
+
+.btn{
+    
+    position: relative;
+  display: inline-block;
+  margin: 1em;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.message{
+    background-color: rgb(175, 106, 227);
+}
+
+.follow{
+    background-color: rgb(253, 62, 132);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+    
+}
